@@ -1,0 +1,13 @@
+<div ng-repeat="author in authors">
+<div class="row">
+ <div class="col-md-12">
+  <h3 class="quote-text text-center">
+  <a ui-sref="quoteList({ name: author.name })">{{ author.name }}</a>
+  </h3>
+ </div>
+</div>
+</div>
+
+<!-- <a ui-sref="add" class="quote-add">Add</a> -->
+<br>
+<a ui-sref="quote" class="quote-add">&nbsp;&nbsp;Random</a>

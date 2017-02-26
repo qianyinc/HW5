@@ -1,0 +1,5 @@
+---
+applications:
+- name: Qianying Chen
+  path: ./build/libs/eureka-server-0.1.0.jar
+buildpack: https://github.com/cloudfoundry/java-buildpack.git

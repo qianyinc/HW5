@@ -1,0 +1,13 @@
+<div ng-repeat="quote in quotes">
+<div class="row">
+ <div class="col-md-12">
+  <h3 class="quote-text text-center">{{quote.text}}</h3>
+ </div>
+</div>
+<div class="row">
+ <div class="col-md-12">
+  <p class="text-right">- {{quote.author.name}}</p>
+ </div>
+</div>
+</div>
+<a ui-sref="authorList" class="quote-add">&nbsp;&nbsp;Main</a>

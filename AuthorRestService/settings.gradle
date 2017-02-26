@@ -1,0 +1,5 @@
+rootProject.name = 'gradle'
+rootProject.name = 'gradle'
+include 'eureka-client'
+include 'eureka-service'
+
